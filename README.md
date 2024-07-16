@@ -1,10 +1,10 @@
 # Quantity-aware Retrieval
 
-This repository contains code for the paper "Numbers Matter! Bringing Quantity-awareness to Retrieval Systems".
+This repository contains code for the paper "[Numbers Matter! Bringing Quantity-awareness to Retrieval Systems](https://arxiv.org/pdf/2407.10283)".
 The paper introduces two types of quantity-aware models, joint quantity and term ranking and disjoint ranking.
 
 
-This repo contains code for data generation, data processing, and evaluation. For fine-tuning the neural models
+The modules include data generation, data processing, and evaluation. For fine-tuning the neural models
 of [SPLADE](https://github.com/naver/splade) and [ColBERT](https://github.com/stanford-futuredata/ColBERT), refer to their respective repositories.
 For loading the models and creating the quantity-aware variants, some code snippets from the mentioned repositories have been used here.
 To run the code, create an environment using the `requirment.txt` file.
